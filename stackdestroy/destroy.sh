@@ -17,6 +17,10 @@
 #
 # example:
 # ./destroy.sh $(pidof vim)
+#
+# note: you need permissions to write to another processes address space, which
+# is likely not allowed on normal proceses. you'll need to take whatever
+# measures your system requires to allow this script to work.
 
 
 if [ $# -ne 1 ]; then

@@ -1,4 +1,4 @@
-CFLAGS=-nostdlib -nostartfiles -Wall -Wpedantic
+CFLAGS=-nostdlib -nostartfiles -Wall -Wpedantic -fno-stack-protector
 
 .PHONY: all
 all: syscalls

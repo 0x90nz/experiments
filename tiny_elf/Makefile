@@ -1,7 +1,8 @@
 .PHONY: all
 all:
 	nasm -f bin tiny.asm -o tiny
-	chmod +x tiny
+	nasm -f bin tiny_freebsd.asm -o tiny_freebsd
+	chmod +x tiny tiny_freebsd
 
 .PHONY: clean
 clean:

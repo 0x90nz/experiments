@@ -6,4 +6,4 @@ all:
 
 .PHONY: clean
 clean:
-	rm -f tiny
+	rm -f tiny tiny_freebsd
